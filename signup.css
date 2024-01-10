@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(132deg, rgb(34, 181, 254) 0.00%, rgb(255, 186, 214) 100.00%);
+}
+
+.container {
+    text-align: center;
+    margin: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background: linear-gradient(122deg, rgb(161, 255, 255) 14.94%, rgb(0, 216, 216) 50.81%);
+}
+
+input[type="submit"] {
+    background-color: #0165E1;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.cred {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 10%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+    }
+
+    .login {
+        font-size: 14px;
+    }
+}

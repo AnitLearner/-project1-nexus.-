@@ -1,0 +1,95 @@
+body {
+   background: linear-gradient(132deg, rgb(34, 181, 254) 0.00%, rgb(255, 186, 214) 100.00%);
+}
+
+.container {
+   text-align: center;
+   margin: 15%;
+   margin-left: 35%;
+   margin-right: 35%;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   background: linear-gradient(122deg, rgb(161, 255, 255) 14.94%, rgb(0, 216, 216) 50.81%);
+}
+
+input[type="submit"] {
+   background-color: #0165E1;
+   color: aliceblue;
+   border-radius: 5px;
+   border: none;
+   padding: 15px 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 22px;
+}
+
+.cred {
+   margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+   width: 60%;
+   padding: 12px; /* Adjusted padding for slightly larger input boxes */
+   margin: 8px 0;
+   box-sizing: border-box;
+   font-size: 18px; /* Adjusted font size for slightly larger input boxes */
+}
+
+.login1, .login2, .login3 {
+   width: 70%; /* Adjusted width for responsiveness */
+   margin-left:12%; /* Centered on smaller screens */
+   border-radius: 5px;
+   padding: 15px;
+   margin-top: 10px;
+}
+
+.login1 {
+   background-color: darkblue;
+   color: white;
+}
+
+.login2 {
+   background-color: #1DA1F2;
+   color: white;
+}
+
+.login3 {
+   background-color: #FF0000;
+   color: white;
+}
+
+
+
+.register {
+   margin-top: 20px;
+   word-spacing: 80px;
+   font-size: 18px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+   .container {
+       margin: 10%;
+   }
+
+   .login1, .login2, .login3 {
+       width: 80%;
+       margin-left: 10%;
+   }
+
+   .register {
+       margin-top: 10px;
+       word-spacing: 10px;
+       font-size: 16px;
+   }
+
+   input[type="text"],
+   input[type="password"] {
+       font-size: 14px; /* Adjusted font size for smaller screens */
+   }
+
+   input[type="submit"] {
+       font-size: 18px;
+   }
+}
